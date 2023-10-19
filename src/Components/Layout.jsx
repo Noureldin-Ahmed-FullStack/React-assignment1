@@ -6,10 +6,10 @@ import { Outlet } from 'react-router-dom'
 export default class Layout extends Component {
   render() {
     return (
-        <>
+      <>
         <NavbarComponent />
-      <Outlet />
-      <Footer />
+        <Outlet />
+        <Footer />
 
       </>
     )

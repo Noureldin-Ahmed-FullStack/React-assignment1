@@ -1,16 +1,16 @@
 import './App.css';
 import About from './Components/About';
+import './MyCss/MyCustomStylesheet.css'
 import Contact from './Components/Contact';
-import Footer from './Components/Footer';
 import Layout from './Components/Layout';
 import Main from './Components/Main';
-import NavbarComponent from './Components/NavbarComponent';
 import Portfolio from './Components/Portfolio';
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import { RouterProvider, createHashRouter } from "react-router-dom"
 
 
 function App() {
-  let Routes = createBrowserRouter([
+  
+  let Routes = createHashRouter([
     {
       path: '/', element: <Layout />, children: [
         { path: "/", element: <Main /> },
@@ -25,7 +25,7 @@ function App() {
 
   ])
   return (
-    <div>
+    <div className='myWidth'>
       {/* <NavbarComponent /> */}
       {/* <Main /> */}
      

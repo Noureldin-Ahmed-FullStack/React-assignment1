@@ -27,12 +27,12 @@ export default class Footer extends Component {
             </div>
             <div className="col-md-4 text-center">
               <h2>ABOUT FREELANCER</h2>
-              <p>Freelance is a free to use, licensed Bootstrap theme created by Route</p>
+              <p>Freelance is free to use</p>
             </div>
           </div>
         </div>
         <div className="DarktealBG text-center py-3">
-          Copyright © Your Website 2021
+          Copyright © VetRo 2023
         </div>
 
       </footer>

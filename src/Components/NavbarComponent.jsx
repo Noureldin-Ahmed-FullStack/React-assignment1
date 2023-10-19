@@ -16,7 +16,7 @@ export default class NavbarComponent extends Component {
 
             <nav className="navbar bold-text tealBG navbar-expand-lg navbar-dark py-4 ">
                 <div className="container">
-                    <Link className="navbar-brand " to="">START FRAMEWORK</Link>
+                    <Link className="navbar-brand " to="">VetRo</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
