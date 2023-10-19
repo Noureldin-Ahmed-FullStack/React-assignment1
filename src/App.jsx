@@ -8,7 +8,7 @@ import Portfolio from './Components/Portfolio';
 import { RouterProvider, createHashRouter } from "react-router-dom"
 
 
-function App() { 
+function App() {
   
   let Routes = createHashRouter([
     {
